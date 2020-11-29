@@ -1,0 +1,561 @@
+/*---------------------------------------------------
+
+Filterize - CSS3 Gallery // Theme 1 // Full width
+
+
+
+1.	Fonts
+2.	Gallery reset
+3.	Fade in effect on page load (keyframes)
+	3.1. Keyframes animation
+	3.2. Fade in effects
+	3.3. Image delays
+4.	Gallery styles
+	4.1. Basic styles
+	4.2. Filter buttons
+	4.3. Gallery items
+	4.4. Items overlay
+	4.5. Lightbox
+5.	Transitions, animations and merged opacity (merged styles)
+	5.1. Opacity
+	5.2. Easings
+6.	Responsive queries
+	6.1. Min width 1025px and Max width 1680px
+	6.2. Max width 1024px
+	6.3. Max width 600px
+
+---------------------------------------------------*/
+
+
+/*---------------------------------------------------
+	1. Fonts
+---------------------------------------------------*/
+
+/* Note: If you already use other fonts which you want to use in the gallery, delete these imports and edit font-family selectors below */
+
+/*---------------------------------------------------
+	2. Gallery reset
+---------------------------------------------------*/
+
+body { /* If you're already have body reset in your template, delete this selector */
+	margin: 0;
+	padding: 0;
+}
+.gallery * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 100%;
+	font-family: 'Open Sans', Arial, sans-serif; /* Edit this if you want to match the font with your design */
+	vertical-align: baseline;
+	line-height: normal;
+}
+.gallery > ol,
+.gallery > ul,
+.gallery > li {
+	list-style: none;
+}
+.gallery > table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.gallery > section {
+	display: block;
+}
+/* Note: If you experience issues with reset above, please adjust the selectors and values according to your template/website.
+When adjusting the reset is adviced to check all the elements on your page, including the footer, as some elements might not show as expected if reset is changed or not configured properly */
+
+
+/*---------------------------------------------------
+	3. Fade in effect on page load
+---------------------------------------------------*/
+
+/* 3.1. Keyframes animation (Note: IE9 doesn't support keyframes) */
+
+@keyframes fadeIn {
+	from { opacity: 0; } to { opacity: 1; }
+}
+
+/***** 3.2. Fade in effects *****/
+
+.fade-in {
+	/* Opacity 0 so we hide the elements before animation starts */
+	opacity: 0;
+	/* Trigger for our fade-in selector and a value of how many times does it repeats on page load */
+	animation: fadeIn ease-in 1;
+	/* Attribute to keep the last keyframe value after the animation is completed */
+	animation-fill-mode: forwards;
+	/* Duration of the animation */
+	animation-duration: 1s;
+}
+
+/***** 3.3. Image delays *****/
+
+/* Delay of image 1 */
+.fade-in.one {
+	animation-delay: 0.2s;
+}
+/* Delay of image 2 */
+.fade-in.two {
+	animation-delay: 0.4s;
+}
+/* Delay of image 3 */
+.fade-in.three {
+	animation-delay: 0.6s;
+}
+/* Delay of image 4 */
+.fade-in.four {
+	animation-delay: 0.8s;
+}
+/* Delay of image 5 */
+.fade-in.five {
+	animation-delay: 1s;
+}
+/* Delay of image 6 */
+.fade-in.six {
+	animation-delay: 1.2s;
+}
+/* Delay of image 7 */
+.fade-in.seven {
+	animation-delay: 1.4s;
+}
+/* Delay of image 8 */
+.fade-in.eight {
+	animation-delay: 1.6s;
+}
+/* Delay of image 9 */
+.fade-in.nine {
+	animation-delay: 1.8s;
+}
+/* Delay of image 10 */
+.fade-in.ten {
+	animation-delay: 2s;
+}
+/* Delay of image 11 */
+.fade-in.eleven {
+	animation-delay: 2.2s;
+}
+/* Delay of image 12 */
+.fade-in.twelve {
+	animation-delay: 2.4s;
+}
+
+/*---------------------------------------------------
+	4. Gallery styles
+---------------------------------------------------*/
+
+/***** 4.1. Basic styles *****/
+
+#filterize {
+	width: 96%; /* Set the width of the gallery to fit your layout if you're not using a parent wrapper with already set width */
+	height: 100%;
+	position: relative;
+	margin: 50px auto;
+}
+.gallery {
+	display: block;
+	width: 100%;
+}
+.pagination {
+	display: block;
+	float: left;
+	width: 100%;
+	margin-bottom: 6%;
+}
+.pagination span.active,
+.pagination a.page {
+	display: inline-block;
+	margin-right: 20px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+	width: auto;
+	height: auto;
+	text-decoration: none;
+}
+.pagination span.active,
+.pagination a.page:hover {
+	color: #333;
+}
+.pagination a.page {
+	color: #bbb;
+}
+.clrfx-1 {
+	display: block;
+	width: 100%;
+	clear: both;
+}
+.icon {
+	font-family: 'FontAwesome';
+	font-weight: normal;
+    font-size: 3em;
+}
+
+/***** 4.2. Filter buttons *****/
+
+.gallery label {
+	font-size: 0.8em;
+	color: #999;
+	width: auto;
+	height: 40px;
+	cursor: pointer;
+	float: left;
+	margin: 0 50px 30px 0;
+}
+.gallery label:hover {
+	color: #222;
+}
+.gallery input.selector-all:checked ~ label.label-all,
+.gallery input.selector-category-1:checked ~ label.label-category-1,
+.gallery input.selector-category-2:checked ~ label.label-category-2,
+.gallery input.selector-category-3:checked ~ label.label-category-3,
+.gallery input.selector-category-4:checked ~ label.label-category-4 {
+	color: #222;
+}
+.gallery input.selector-category-1:checked ~ .gallery-items li:not(.category-1) div,
+.gallery input.selector-category-2:checked ~ .gallery-items li:not(.category-2) div,
+.gallery input.selector-category-3:checked ~ .gallery-items li:not(.category-3) div,
+.gallery input.selector-category-4:checked ~ .gallery-items li:not(.category-4) div {
+	display: none;
+}
+.gallery input {
+	display: none;
+}
+
+/***** 4.3. Gallery items *****/
+
+.gallery-items {
+	position: relative;
+	margin: 0px auto;
+    padding-top: 50px; 
+	float: left;
+}
+.gallery-items li {
+	float: left;
+	margin: 0 4% 4% 0;
+	width: 22%;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+	cursor: default;
+	background: transparent;
+}
+.gallery-items li:nth-child(4n) {
+	margin-right: 0;
+}
+.gallery-items li img {
+	display: block;
+	width: 100%;
+	position: relative;
+}
+
+/***** 4.4. Items overlay *****/
+
+.gallery-items li .overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	text-align: center;
+	top: 0;
+	left: 0;
+	cursor: auto;
+	background-color: rgba(0,0,0,0.7);
+}
+.gallery-items li .overlay a {
+	color: #fff;
+	font-size: 2.6em;
+	width: 1em;
+	position: absolute;
+	text-decoration: none;
+	margin: 50% auto auto auto;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: auto;
+}
+.gallery-items li .overlay a:hover {
+	opacity: 1;
+}
+
+/***** 4.5. Lightbox *****/
+
+.lightbox {
+	width: 0px;
+	height: 0px;
+	position: fixed;
+	overflow: hidden;
+	left: 0px;
+	top: 0px;
+	background-color: rgba(0,0,0,0.9);
+	z-index: 9999;
+}
+.lightbox:target {
+	width: auto;
+	height: auto;
+	bottom: 0px;
+	right: 0px;
+}
+.lightbox-caption {
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	cursor: auto;
+	position: absolute;
+	bottom: 4%;
+	left: 0;
+	right: 0;
+	z-index: 3;
+}
+.lightbox-caption h3 {
+	left: 0;
+	right: 0;
+	color: #fff;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	display: inline-block;
+}
+.lightbox-caption p {
+	line-height: 0.9em;
+	font-size: 0.8em;
+	color: #bbb;
+	padding-top: 4px;
+}
+.lightbox-caption a {
+	color: #fff;
+	text-decoration: none;
+}
+.lightbox-caption a:hover {
+	color: #bbb;
+}
+.gallery-items li .lightbox img {
+	height: auto;
+	max-height: 100%;
+	width: auto;
+	max-width: 100% !important;
+	margin: 0 auto;
+	display: block;
+	position: relative;
+	padding: 2% 2% 7% 2%;
+	z-index: 1;
+}
+
+.lightbox-navigation {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background: none;
+	background-color: rgba(0,0,0,0); /* IE 9 and 10 fix */
+	top: 0;
+}
+.previous,
+.next {
+	position: absolute;
+	top: 40%;
+	color: #fff;
+	text-align: center;
+	font-size: 4em;
+	text-decoration: none;
+	width: auto;
+	height: auto;
+	vertical-align: middle;
+	z-index: 999;
+}
+.previous {
+	left: 2%;
+}
+.next {
+	right: 2%;
+}
+.previous:hover,
+.next:hover {
+	color: #bbb;
+}
+.lightbox a.close {
+	position: absolute;
+	top: 2%;
+	left: auto;
+	right: 2%;
+	bottom: auto;
+	top: 5%;
+	font-size: 1.2em;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	width: auto;
+	height: auto;
+	z-index: 999;
+}
+.lightbox a.close:hover {
+	color: #bbb;
+}
+.lightbox a.close-overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+/*---------------------------------------------------
+	5. Transitions and animations
+---------------------------------------------------*/
+
+/***** 5.1 Opacity *****/
+
+.gallery-items li .overlay,
+.lightbox-caption h3,
+.lightbox-caption p,
+.gallery-items li .lightbox img {
+	opacity: 0;
+}
+.gallery input.selector-all:checked ~ .gallery-items li,
+.gallery input.selector-category-1:checked ~ .gallery-items .category-1,
+.gallery input.selector-category-2:checked ~ .gallery-items .category-2,
+.gallery input.selector-category-3:checked ~ .gallery-items .category-3,
+.gallery input.selector-category-4:checked ~ .gallery-items .category-4,
+.gallery-items li:hover .overlay,
+.lightbox:target .lightbox-caption h3,
+.lightbox:target .lightbox-caption p,
+.gallery-items li .lightbox:target img,
+.lightbox-navigation {
+	opacity: 1;
+}
+.gallery input:checked ~ .gallery-items li:not(div) {
+	opacity: 0.15;
+}
+.lightbox img:hover ~ .lightbox-navigation {
+	opacity: 0.3;
+}
+
+/***** 5.2 Easings *****/
+
+.gallery-items li .overlay,
+.gallery-items li .overlay a,
+.pagination a.page,
+.gallery label,
+.lightbox-navigation a,
+.lightbox-navigation {
+	transition: all 0.2s ease-in-out;
+}
+.gallery-items li,
+.lightbox-caption * {
+	transition: all 0.4s ease-in-out;
+}
+.lightbox img {
+	transition: opacity 0.4s linear;
+}
+.lightbox:target .lightbox-caption h3 {
+	transition-delay: 0.2s;
+}
+.lightbox:target .lightbox-caption p {
+	transition-delay: 0.5s;
+}
+
+/*---------------------------------------------------
+	6. Responsive queries
+---------------------------------------------------*/
+
+/***** Min width 1025px and Max width 1680px  *****/
+
+@media screen and (min-width:1025px) and (max-width:1680px){
+	.gallery-items li {
+		width: 30%;
+		margin: 0 5% 5%;
+		box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+	}
+	.gallery-items li:nth-child(2n),
+	.gallery-items li:nth-child(4n) {
+		margin-right: 5%;
+	}
+	.gallery-items li:nth-child(3n) {
+		margin-right: 0;
+	}
+}
+
+/***** Max width 1024px *****/
+
+@media screen and (max-width:1024px){
+	.gallery-items li {
+		width: 47%;
+		margin: 0 6% 6% 0;
+	}
+	.gallery-items li:nth-child(3n) {
+		margin-right: 6%;
+	}
+	.gallery-items li:nth-child(2n),
+	.gallery-items li:nth-child(4n) {
+		margin-right: 0;
+	}
+	.gallery-items li .lightbox img {
+		padding: 3% 14% 90px 14%;
+	}
+	.lightbox a.close {
+		top: 3%;
+		right: 3%;
+	}
+	.lightbox-navigation {
+		z-index: 2;
+	}
+	.lightbox-caption {
+		bottom: 0;
+		height: auto;
+		padding: 20px 0;
+		z-index: 2;
+		background: #222;
+	}
+	.lightbox-caption h3 {
+		font-size: 100%;
+		margin: 0 0 6px 0;
+	}
+	.lightbox-caption p {
+		padding: 0;
+		font-size: 0.6em;
+		font-size: 70%;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.previous,
+	.next {
+		font-size: 3em;
+	}
+	.lightbox img:hover ~ .lightbox-navigation {
+		opacity: 1;
+	}
+	.lightbox img:hover ~ .lightbox-navigation > .previous {
+		left: 0;
+	}
+	.lightbox img:hover ~ .lightbox-navigation > .next {
+		right: 0;
+	}
+}
+
+/***** Max width 600px *****/
+
+@media screen and (max-width:600px){
+	.gallery-items li {
+		width: 100%;
+		margin: 0 0 6% 0;
+	}
+	.gallery-items li:nth-child(3n) {
+		margin-right: 6%;
+	}
+	.gallery-items li:nth-child(2n),
+	.gallery-items li:nth-child(3n),
+	.gallery-items li:nth-child(4n) {
+		margin-right: 0;
+	}
+	.gallery label {
+		width: 100%;
+		text-align: center;
+		margin: 0 0 10px 0;
+	}
+	.gallery label:last-of-type {
+		margin-bottom: 40px;
+	}
+}

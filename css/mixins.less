@@ -1,0 +1,32 @@
+@import 'palette.less';
+/* Parametric mixin for headings */
+
+.headingStyle(@paramFamily; @paramColor; @paramSize) {
+    font-family: @paramFamily;
+    color: @paramColor; // this accepts a font color passed through as an argument
+    font-size: @paramSize; // this accepts a font size passed through as an argument
+    font-weight: bold; // this is static code... not everything has to be dynamic! 
+}
+
+/* End parametric mixin for headings */
+
+.headers-generator(@n; @i : 1) when (@i =< @n) {
+    h@{i} {
+        font-size: (2.5em - (@i - 1) * 0.5);
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+    }
+
+    .headers-generator(@n; (@i + 1));
+}
+
+.headers-generator(6);
+
+.buffers {
+    padding: 30px 18px;
+}
+
+.darkSide {
+    background-color: @darkColor;
+    color: @lightColor;
+}
