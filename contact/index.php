@@ -8,7 +8,7 @@
     <meta name="author" content="Illya King">
     <meta name="generator" content="Jekyll v4.1.1">
 
-    <title>Contact &&bull; IllyaKing.com</title>
+    <title>Contact &bull; IllyaKing.com</title>
     <link rel="icon" href="../img/kingLogoBlack.png" type="image/png" sizes="24x24">
 
     <!--CSS -->
