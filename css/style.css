@@ -247,10 +247,7 @@ input[type=submit].btn-block {
   margin-top: 2rem;
 }
 .contactInfo {
-  background: linear-gradient(#4d148c 25%, transparent), url('../img/vancouver.jpg') center;
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
+  background-color: #000000;
 }
 /* Pagination */
 .blog-pagination {
