@@ -50,14 +50,6 @@
                     </div>
                     <div class="col-md-3">
                         <div class="card mb-3 shadow-sm">
-                            <a rel="external" href="https://wp.illyaking.com" target="_blank"><img src="../img/boxIllyaHeartsWP.jpg" height="300" alt="Icon for Illya Hearts WordPress"></a>
-                            <div class="card-body">
-                                <p class="card-text">Illya &#9829; WP: WordPress Review and plugin experimentation installation</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card mb-3 shadow-sm">
                             <a rel="external" href="https://zetaman.reallifesuperheroes.info" target="_blank"><img src="../img/boxZetamanTV.jpg" height="300" alt="Icon for ZetamanTV"></a>
                             <div class="card-body">
                                 <p class="card-text">Zetaman.TV: Mobile Responsive HTML/CSS Website<br>&nbsp;</p>

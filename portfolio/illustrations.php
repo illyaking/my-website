@@ -336,7 +336,7 @@
             <!--/.row-->
             <!-- / Gallery - END copying here -->
 
-            <p>Additional images are located at <a href="https://pics.illyaking.com/index.php?/category/51" target="_blank">https://pics.illyaking.com/index.php?/category/51</a></p>
+            <p>Additional images are located <strong><a href="https://pics.illyaking.com/index.php?/category/51" target="_blank">HERE</a></strong></p>
         </div><!-- /.container-fluid-->
     </main><!-- /.main -->
 

@@ -329,7 +329,7 @@
             <!--/.row-->
             <!-- / Gallery - END copying here -->
             <p>Crow, Crow Works Comics, and related properies were created by <a href="https://www.linkedin.com/in/william-rail-046b8693" target="_blank">William Rail</a>.<br>
-                Additional images are located at <a href="https://pics.illyaking.com/index.php?/category/31" target="_blank">https://pics.illyaking.com/index.php?/category/31</a></p>
+                Additional images are located <strong><a href="https://pics.illyaking.com/index.php?/category/31" target="_blank">HERE</a></strong></p>
 
         </div><!-- /.container-fluid-->
     </main><!-- /.main -->

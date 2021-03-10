@@ -5,10 +5,12 @@
             <div class="col-md-4">
                 <h2>About Illya King</h2>
                 <p>Cartoonist and creator of Totally Naked Man(<a href="https://totallynakedman.com" title="TotallyNakedMan.com" target="_blank">https://totallynakedman.com</a>) and The Schlub(<a href="https://theschlub.com" title="The Schlub.com" target="_blank">https://theschlub.com</a>). I am currently pursing an associate in Computer Applications and Office Systems from <a href="https://pcc.edu" title="Portland Community College" target="_blank">Portland Community College</a>.</p>
+                <p>&nbsp;</p>
             </div><!-- /.col-md-4 -->
             <div class="col-md-4">
                 <h2>About this website</h2>
                 <p>This site was built using <a href="https://getbootstrap.com" title="Bootstrap" target="_blank">Bootstrap</a>. The styling was done using LESS and ParaMixins with <a href="http://brackets.io/" title="Brackets" target="_blank">Brackets.IO</a>. Gallery and Contact Forms were coded in JavaScript using <a href="https://www.jetbrains.com/" title="JetBrains" target="_blank">JetBrains'</a> PHPStorm.</p>
+                <p>&nbsp;</p>
             </div><!-- /.col-md-4 -->
             <div class="col-md-4">
                 <h2>Social Network Profiles</h2>
@@ -30,6 +32,7 @@
                             alt="Valid CSS!" />
                     </a>
                 </p>
+                <p>&nbsp;</p>
             </div><!-- /.col-md-4 -->
         </div><!-- /.row -->
         <div class="copyright">
