@@ -10,7 +10,7 @@
 
     <title>Portfolio &bull; IllyaKing.com</title>
     <link rel="icon" href="../img/kingLogoBlack.png" type="image/png" sizes="24x24">
-    
+
     <!--CSS -->
     <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../fontawesome/css/all.min.css" />
@@ -35,13 +35,14 @@
                 <div id="filterize">
                     <div class="gallery">
                         <ul class="gallery-items">
+
                             <!-- Image 1 -->
                             <li class="category-2">
-                                <a href="#image-1"><img class="fade-in one" src="../img/portfolio/illustrations/roosterThumb.jpg" alt="Colorful Rooster" /></a>
+                                <a href="#image-1"><img class="fade-in one" src="../img/portfolio/illustrations/swallowsNestCastleThumb.jpg" alt="Swallows Nest Castle" /></a>
                                 <!-- Lighbox popup -->
                                 <div id="image-1" class="lightbox">
                                     <!-- Lightbox image -->
-                                    <img src="../img/portfolio/illustrations/rooster.jpg" alt="Colorful Rooster" />
+                                    <img src="../img/portfolio/illustrations/swallowsNestCastle.jpg" alt="Swallows Nest Castle" />
                                     <!-- Lightbox navigation -->
                                     <div class="lightbox-navigation">
                                         <a class="previous icon" href="#image-12">&#8249;</a>
@@ -61,15 +62,40 @@
                             <!-- / Image 1 -->
 
                             <!-- Image 2 -->
-                            <li class="category-1">
-                                <a href="#image-2"><img class="fade-in two" src="../img/portfolio/illustrations/unionStationThumb.jpg" alt="Union Station in Portland, OR" /></a>
+                            <li class="category-2">
+                                <a href="#image-2"><img class="fade-in one" src="../img/portfolio/illustrations/roosterThumb.jpg" alt="Colorful Rooster" /></a>
+                                <!-- Lighbox popup -->
                                 <div id="image-2" class="lightbox">
                                     <!-- Lightbox image -->
-                                    <img src="../img/portfolio/illustrations/unionStation.jpg" alt="Union Station in Portland, OR" />
+                                    <img src="../img/portfolio/illustrations/rooster.jpg" alt="Colorful Rooster" />
                                     <!-- Lightbox navigation -->
                                     <div class="lightbox-navigation">
                                         <a class="previous icon" href="#image-1">&#8249;</a>
                                         <a class="next icon" href="#image-3">&#8250;</a>
+                                        <a class="close-overlay" href="#close"></a>
+                                        <a class="close icon" href="#close">&#10006;</a>
+                                    </div>
+                                    <!-- Lightbox content -->
+                                    <div class="lightbox-caption">
+                                        <!-- Lightbox image description -->
+                                        <h3>Rooster Brick</h3>
+                                        <p>Rooster in acrylic. For a t-shirt design to sell on RedBubble.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <!--/.category-2-->
+                            <!-- / Image 2 -->
+
+                            <!-- Image 3 -->
+                            <li class="category-1">
+                                <a href="#image-3"><img class="fade-in two" src="../img/portfolio/illustrations/unionStationThumb.jpg" alt="Union Station in Portland, OR" /></a>
+                                <div id="image-3" class="lightbox">
+                                    <!-- Lightbox image -->
+                                    <img src="../img/portfolio/illustrations/unionStation.jpg" alt="Union Station in Portland, OR" />
+                                    <!-- Lightbox navigation -->
+                                    <div class="lightbox-navigation">
+                                        <a class="previous icon" href="#image-2">&#8249;</a>
+                                        <a class="next icon" href="#image-4">&#8250;</a>
                                         <a class="close-overlay" href="#close"></a>
                                         <a class="close icon" href="#close">&#10006;</a>
                                     </div>
@@ -81,18 +107,18 @@
                                     </div>
                                 </div>
                             </li>
-                            <!-- / Image 2 -->
+                            <!-- / Image 3 -->
 
-                            <!-- Image 3 -->
+                            <!-- Image 4 -->
                             <li class="category-4">
-                                <a href="#image-3"><img class="fade-in three" src="../img/portfolio/illustrations/theWhiteHouseThumb.jpg" alt="The White House" /></a>
-                                <div id="image-3" class="lightbox">
+                                <a href="#image-4"><img class="fade-in three" src="../img/portfolio/illustrations/theWhiteHouseThumb.jpg" alt="The White House" /></a>
+                                <div id="image-4" class="lightbox">
                                     <!-- Lightbox image -->
                                     <img src="../img/portfolio/illustrations/theWhiteHouse.jpg" alt="The White House" />
                                     <!-- Lightbox navigation -->
                                     <div class="lightbox-navigation">
-                                        <a class="previous icon" href="#image-2">&#8249;</a>
-                                        <a class="next icon" href="#image-4">&#8250;</a>
+                                        <a class="previous icon" href="#image-3">&#8249;</a>
+                                        <a class="next icon" href="#image-5">&#8250;</a>
                                         <a class="close-overlay" href="#close"></a>
                                         <a class="close icon" href="#close">&#10006;</a>
                                     </div>
@@ -104,18 +130,23 @@
                                     </div>
                                 </div>
                             </li>
-                            <!-- / Image 3 -->
+                            <!-- / Image 4 -->
 
-                            <!-- Image 4 -->
+                        </ul>
+                        <!--/.gallery-items-->
+
+                        <ul class="gallery-items">
+
+                            <!-- Image 5 -->
                             <li class="category-1">
-                                <a href="#image-4"><img class="fade-in four" src="../img/portfolio/illustrations/saltLakeTempleThumb.jpg" alt="Salt Lake City Temple" /></a>
-                                <div id="image-4" class="lightbox">
+                                <a href="#image-5"><img class="fade-in four" src="../img/portfolio/illustrations/saltLakeTempleThumb.jpg" alt="Salt Lake City Temple" /></a>
+                                <div id="image-5" class="lightbox">
                                     <!-- Lightbox image -->
                                     <img src="../img/portfolio/illustrations/saltLakeTemple.jpg" alt="Salt Lake City Temple" />
                                     <!-- Lightbox navigation -->
                                     <div class="lightbox-navigation">
-                                        <a class="previous icon" href="#image-3">&#8249;</a>
-                                        <a class="next icon" href="#image-5">&#8250;</a>
+                                        <a class="previous icon" href="#image-4">&#8249;</a>
+                                        <a class="next icon" href="#image-6">&#8250;</a>
                                         <a class="close-overlay" href="#close"></a>
                                         <a class="close icon" href="#close">&#10006;</a>
                                     </div>
@@ -127,21 +158,18 @@
                                     </div>
                                 </div>
                             </li>
-                            <!-- / Image 4 -->
-                        </ul>
-                        <!--/.gallery-items-->
+                            <!-- / Image 5 -->
 
-                        <ul class="gallery-items">
-                            <!-- Image 5 -->
+                            <!-- Image 6 -->
                             <li class="category-3">
-                                <a href="#image-5"><img class="fade-in five" src="../img/portfolio/illustrations/bagdadTheatreThumb.jpg" alt="The Bagdad Theatre in Portland, OR" /></a>
-                                <div id="image-5" class="lightbox">
+                                <a href="#image-6"><img class="fade-in five" src="../img/portfolio/illustrations/bagdadTheatreThumb.jpg" alt="The Bagdad Theatre in Portland, OR" /></a>
+                                <div id="image-6" class="lightbox">
                                     <!-- Lightbox image -->
                                     <img src="../img/portfolio/illustrations/bagdadTheatre.jpg" alt="The Bagdad Theatre in Portland, OR" />
                                     <!-- Lightbox navigation -->
                                     <div class="lightbox-navigation">
-                                        <a class="previous icon" href="#image-4">&#8249;</a>
-                                        <a class="next icon" href="#image-6">&#8250;</a>
+                                        <a class="previous icon" href="#image-5">&#8249;</a>
+                                        <a class="next icon" href="#image-7">&#8250;</a>
                                         <a class="close-overlay" href="#close"></a>
                                         <a class="close icon" href="#close">&#10006;</a>
                                     </div>
@@ -153,19 +181,19 @@
                                     </div>
                                 </div>
                             </li>
-                            <!-- / Image 5 -->
+                            <!-- / Image 6 -->
 
-                            <!-- Image 6 -->
+                            <!-- Image 7 -->
                             <li class="category-2">
-                                <a href="#image-6"><img class="fade-in six" src="../img/portfolio/illustrations/thirdAndGlisenThumb.jpg" alt="Building on Third and Glisan" /></a>
+                                <a href="#image-7"><img class="fade-in six" src="../img/portfolio/illustrations/thirdAndGlisenThumb.jpg" alt="Building on Third and Glisan" /></a>
                                 <!-- Lighbox popup -->
-                                <div id="image-6" class="lightbox">
+                                <div id="image-7" class="lightbox">
                                     <!-- Lightbox image -->
                                     <img src="../img/portfolio/illustrations/thirdAndGlisen.jpg" alt="Building on Third and Glisan" />
                                     <!-- Lightbox navigation -->
                                     <div class="lightbox-navigation">
-                                        <a class="previous icon" href="#image-5">&#8249;</a>
-                                        <a class="next icon" href="#image-7">&#8250;</a>
+                                        <a class="previous icon" href="#image-6">&#8249;</a>
+                                        <a class="next icon" href="#image-8">&#8250;</a>
                                         <a class="close-overlay" href="#close"></a>
                                         <a class="close icon" href="#close">&#10006;</a>
                                     </div>
@@ -177,19 +205,19 @@
                                     </div>
                                 </div>
                             </li>
-                            <!-- / Image 6 -->
+                            <!-- / Image 7 -->
 
-                            <!-- Image 7 -->
+                            <!-- Image 8 -->
                             <li class="category-3">
-                                <a href="#image-7"><img class="fade-in seven" src="../img/portfolio/illustrations/vanitasSkullThumb.jpg" alt="Vanitas Skull" /></a>
+                                <a href="#image-8"><img class="fade-in seven" src="../img/portfolio/illustrations/vanitasSkullThumb.jpg" alt="Vanitas Skull" /></a>
                                 <!-- Lighbox popup -->
-                                <div id="image-7" class="lightbox">
+                                <div id="image-8" class="lightbox">
                                     <!-- Lightbox image -->
                                     <img src="../img/portfolio/illustrations/vanitasSkull.jpg" alt="Vanitas Skull" />
                                     <!-- Lightbox navigation -->
                                     <div class="lightbox-navigation">
-                                        <a class="previous icon" href="#image-6">&#8249;</a>
-                                        <a class="next icon" href="#image-8">&#8250;</a>
+                                        <a class="previous icon" href="#image-7">&#8249;</a>
+                                        <a class="next icon" href="#image-9">&#8250;</a>
                                         <a class="close-overlay" href="#close"></a>
                                         <a class="close icon" href="#close">&#10006;</a>
                                     </div>
@@ -201,42 +229,20 @@
                                     </div>
                                 </div>
                             </li>
-                            <!-- / Image 7 -->
+                            <!-- / Image 8 -->
 
-                            <!-- Image 8 -->
-                            <li class="category-1">
-                                <a href="#image-8"><img class="fade-in eight" src="../img/portfolio/illustrations/oregonStateHospitalThumb.jpg" alt="Oregon State Hospital" /></a>
-                                <!-- Lighbox popup -->
-                                <div id="image-8" class="lightbox">
-                                    <!-- Lightbox image -->
-                                    <img src="../img/portfolio/illustrations/oregonStateHospital.jpg" alt="Oregon State Hospital" />
-                                    <!-- Lightbox navigation -->
-                                    <div class="lightbox-navigation">
-                                        <a class="previous icon" href="#image-7">&#8249;</a>
-                                        <a class="next icon" href="#image-9">&#8250;</a>
-                                        <a class="close-overlay" href="#close"></a>
-                                        <a class="close icon" href="#close">&#10006;</a>
-                                    </div>
-                                    <!-- Lightbox content -->
-                                    <div class="lightbox-caption">
-                                        <!-- Lightbox image description -->
-                                        <h3>Oregon State Hospital</h3>
-                                        <p>Pigma Micron on Bristol. Illustration for comic story.</p>
-                                    </div>
-                                </div>
-                            </li><!-- / Image 8 -->
                         </ul>
                         <!--/.gallery-items-->
 
                         <ul class="gallery-items">
 
                             <!-- Image 9 -->
-                            <li class="category-4">
-                                <a href="#image-9"><img class="fade-in nine" src="../img/portfolio/illustrations/rockyButteJailThumb.jpg" alt="Rocky Butte Jail" /></a>
+                            <li class="category-1">
+                                <a href="#image-9"><img class="fade-in eight" src="../img/portfolio/illustrations/oregonStateHospitalThumb.jpg" alt="Oregon State Hospital" /></a>
                                 <!-- Lighbox popup -->
                                 <div id="image-9" class="lightbox">
                                     <!-- Lightbox image -->
-                                    <img src="../img/portfolio/illustrations/rockyButteJail.jpg" alt="Rocky Butte Jail" />
+                                    <img src="../img/portfolio/illustrations/oregonStateHospital.jpg" alt="Oregon State Hospital" />
                                     <!-- Lightbox navigation -->
                                     <div class="lightbox-navigation">
                                         <a class="previous icon" href="#image-8">&#8249;</a>
@@ -247,12 +253,11 @@
                                     <!-- Lightbox content -->
                                     <div class="lightbox-caption">
                                         <!-- Lightbox image description -->
-                                        <h3>Rocky Butte Jail</h3>
-                                        <p>Pigma Micron on Bristol. Color in Photoshop. Illustration for comic story.</p>
+                                        <h3>Oregon State Hospital</h3>
+                                        <p>Pigma Micron on Bristol. Illustration for comic story.</p>
                                     </div>
                                 </div>
-                            </li>
-                            <!-- / Image 9 -->
+                            </li><!-- / Image 9 -->
 
                             <!-- Image 10 -->
                             <li class="category-1">
