@@ -356,10 +356,10 @@ When adjusting the reset is adviced to check all the elements on your page, incl
 .previous,
 .next {
 	position: absolute;
-	top: 40%;
+	top: 25%;
 	color: #fff;
 	text-align: center;
-	font-size: 4em;
+	font-size: 18em;
 	text-decoration: none;
 	width: auto;
 	height: auto;
@@ -374,7 +374,8 @@ When adjusting the reset is adviced to check all the elements on your page, incl
 }
 .previous:hover,
 .next:hover {
-	color: #bbb;
+	color: #fff;
+	text-decoration: none;
 }
 .lightbox a.close {
 	position: absolute;
