@@ -68,7 +68,7 @@
 
         <div class="container-fluid contactInfo">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-8">
                     <form action="contact/mail.php" method="POST" class="needs-validation" novalidate>
                         <div>
                             <label for="name">Name</label>
@@ -101,7 +101,7 @@
                         </div>
                     </form>
                 </div><!-- /.col-lg-6 -->
-                <div class="col-lg-6 contact">
+                <div class="col-lg-4 contact">
                     <h2>Contact Information</h2>
                     <h3><i class="fas fa-address-card"></i> P.O. Box 6302<br>
                         Vancouver, WA 98668</h3>
