@@ -199,17 +199,10 @@
                                 </div>
                             </li>
                             <!-- / Image 7 -->
-
+                            
                             <!-- Image 8 -->
                             <li class="category-1">
-                                <!-- Small image -->
-                                <img class="fade-in eight" src="../img/portfolio/comiccovers/coverHollyWoodThumb.jpg" alt="Holly Wood Cover" />
-                                <!-- Image overlay content -->
-                                <div class="overlay">
-                                    <!-- Image overlay icon -->
-                                    <a class="icon" href="#image-8">&#128444;</a>
-                                </div>
-                                <!-- Lighbox popup -->
+                                <a href="#image-8"><img class="fade-in eight" src="../img/portfolio/comiccovers/coverHollyWoodThumb.jpg" alt="Holly Wood Cover" /></a>
                                 <div id="image-8" class="lightbox">
                                     <!-- Lightbox image -->
                                     <img src="../img/portfolio/comiccovers/coverHollyWood.jpg" alt="Holly Wood Cover" />
