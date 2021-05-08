@@ -551,6 +551,9 @@ When adjusting the reset is adviced to check all the elements on your page, incl
 	.gallery-items li:nth-child(4n) {
 		margin-right: 0;
 	}
+	.gallery-items li .lightbox img {
+		padding: 50% 14% 90px 14%;
+	}
 	.gallery label {
 		width: 100%;
 		text-align: center;

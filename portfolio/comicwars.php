@@ -12,7 +12,7 @@
     <link rel="icon" href="../img/kingLogoBlack.png" type="image/png" sizes="24x24">
 
     <!--CSS -->
-    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="../fontawesome/css/fontawesome.min.css" />
     <!-- Core CSS -->
@@ -35,290 +35,34 @@
                 <div id="filterize">
                     <div class="gallery">
                         <ul class="gallery-items">
-                            <!-- Image 1 -->
-                            <li class="category-2">
-                                <a href="#image-1"><img class="fade-in one" src="../img/portfolio/comicwars/cardBackThumb.jpg" alt="Comic Wars Card Back" /></a>
-                                <div id="image-1" class="lightbox">
-                                    <!-- Lightbox image -->
-                                    <img src="../img/portfolio/comicwars/cardBack.jpg" alt="Comic Wars Card Back" />
-                                    <!-- Lightbox navigation -->
-                                    <div class="lightbox-navigation">
-                                        <a class="previous icon" href="#image-12">&#8249;</a>
-                                        <a class="next icon" href="#image-2">&#8250;</a>
-                                        <a class="close-overlay" href="#close"></a>
-                                        <a class="close icon" href="#close">&#10006;</a>
-                                    </div>
-                                    <!-- Lightbox content -->
-                                    <div class="lightbox-caption">
-                                        <!-- Lightbox image description -->
-                                        <h3>Comic Wars Card</h3>
-                                        <p>Photoshop. Design for Comic Wars Redesign card game.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <!--/.category-2-->
-                            <!-- / Image 1 -->
-
-                            <!-- Image 2 -->
-                            <li class="category-1">
-                                <a href="#image-2"><img class="fade-in two" src="../img/portfolio/comicwars/characterCardThumb.jpg" alt="Character Card" /></a>
-                                <div id="image-2" class="lightbox">
-                                    <!-- Lightbox image -->
-                                    <img src="../img/portfolio/comicwars/characterCard.jpg" alt="Character Card" />
-                                    <!-- Lightbox navigation -->
-                                    <div class="lightbox-navigation">
-                                        <a class="previous icon" href="#image-1">&#8249;</a>
-                                        <a class="next icon" href="#image-3">&#8250;</a>
-                                        <a class="close-overlay" href="#close"></a>
-                                        <a class="close icon" href="#close">&#10006;</a>
-                                    </div>
-                                    <!-- Lightbox content -->
-                                    <div class="lightbox-caption">
-                                        <!-- Lightbox image description -->
-                                        <h3>Character Card</h3>
-                                        <p>Photoshop. Proposed design for character cards.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- / Image 2 -->
-
-                            <!-- Image 3 -->
-                            <li class="category-4">
-                                <a href="#image-3"><img class="fade-in three" src="../img/portfolio/comicwars/actionCardRightJabThumb.jpg" alt="Right Jab Action Card" /></a>
-                                <div id="image-3" class="lightbox">
-                                    <!-- Lightbox image -->
-                                    <img src="../img/portfolio/comicwars/actionCardRightJab.jpg" alt="Right Jab Action Card" />
-                                    <!-- Lightbox navigation -->
-                                    <div class="lightbox-navigation">
-                                        <a class="previous icon" href="#image-2">&#8249;</a>
-                                        <a class="next icon" href="#image-4">&#8250;</a>
-                                        <a class="close-overlay" href="#close"></a>
-                                        <a class="close icon" href="#close">&#10006;</a>
-                                    </div>
-                                    <!-- Lightbox content -->
-                                    <div class="lightbox-caption">
-                                        <!-- Lightbox image description -->
-                                        <h3>Action Card</h3>
-                                        <p>Photoshop. Proposed design for action card.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- / Image 3 -->
-
-                            <!-- Image 4 -->
-                            <li class="category-1">
-                                <!-- Small image -->
-                                <a href="#image-4"><img class="fade-in four" src="../img/portfolio/comicwars/counterCardThumb.jpg" alt="Counter Card" /></a>
-                                <div id="image-4" class="lightbox">
-                                    <!-- Lightbox image -->
-                                    <img src="../img/portfolio/comicwars/counterCard.jpg" alt="Counter Card" />
-                                    <!-- Lightbox navigation -->
-                                    <div class="lightbox-navigation">
-                                        <a class="previous icon" href="#image-3">&#8249;</a>
-                                        <a class="next icon" href="#image-5">&#8250;</a>
-                                        <a class="close-overlay" href="#close"></a>
-                                        <a class="close icon" href="#close">&#10006;</a>
-                                    </div>
-                                    <!-- Lightbox content -->
-                                    <div class="lightbox-caption">
-                                        <!-- Lightbox image description -->
-                                        <h3>Counter Card</h3>
-                                        <p>Photoshop. Proposed design for counter card.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- / Image 4 -->
-                        </ul>
-                        <!--/.gallery-items-->
-
-                        <ul class="gallery-items">
-                            <!-- Image 5 -->
-                            <li class="category-3">
-                                <a href="#image-5"><img class="fade-in five" src="../img/portfolio/comicwars/actionCard01Thumb.jpg" alt="Action Card" /></a>
-                                <div id="image-5" class="lightbox">
-                                    <!-- Lightbox image -->
-                                    <img src="../img/portfolio/comicwars/actionCard01.jpg" alt="Action Card" />
-                                    <!-- Lightbox navigation -->
-                                    <div class="lightbox-navigation">
-                                        <a class="previous icon" href="#image-4">&#8249;</a>
-                                        <a class="next icon" href="#image-6">&#8250;</a>
-                                        <a class="close-overlay" href="#close"></a>
-                                        <a class="close icon" href="#close">&#10006;</a>
-                                    </div>
-                                    <!-- Lightbox content -->
-                                    <div class="lightbox-caption">
-                                        <!-- Lightbox image description -->
-                                        <h3>Action Card</h3>
-                                        <p>Photoshop. Proposed action card design.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- / Image 5 -->
-
-                            <!-- Image 6 -->
-                            <li class="category-2">
-                                <a href="#image-6"><img class="fade-in six" src="../img/portfolio/comicwars/actionCard9MMShotThumb.jpg" alt="9 MM Action Card" /></a>
-                                <div id="image-6" class="lightbox">
-                                    <!-- Lightbox image -->
-                                    <img src="../img/portfolio/comicwars/actionCard9MMShot.jpg" alt="9 MM Action Card" />
-                                    <!-- Lightbox navigation -->
-                                    <div class="lightbox-navigation">
-                                        <a class="previous icon" href="#image-5">&#8249;</a>
-                                        <a class="next icon" href="#image-7">&#8250;</a>
-                                        <a class="close-overlay" href="#close"></a>
-                                        <a class="close icon" href="#close">&#10006;</a>
-                                    </div>
-                                    <!-- Lightbox content -->
-                                    <div class="lightbox-caption">
-                                        <!-- Lightbox image description -->
-                                        <h3>9 MM Action Card</h3>
-                                        <p>Photoshop. Proposed action card design.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- / Image 6 -->
-
-                            <!-- Image 7 -->
-                            <li class="category-3">
-                                <a href="#image-7"><img class="fade-in seven" src="../img/portfolio/comicwars/alphamanStaffThumb.jpg" alt="Alphaman with Staff" /></a>
-                                <div id="image-7" class="lightbox">
-                                    <!-- Lightbox image -->
-                                    <img src="../img/portfolio/comicwars/alphamanStaff.jpg" alt="Alphaman with Staffl" />
-                                    <!-- Lightbox navigation -->
-                                    <div class="lightbox-navigation">
-                                        <a class="previous icon" href="#image-6">&#8249;</a>
-                                        <a class="next icon" href="#image-8">&#8250;</a>
-                                        <a class="close-overlay" href="#close"></a>
-                                        <a class="close icon" href="#close">&#10006;</a>
-                                    </div>
-                                    <!-- Lightbox content -->
-                                    <div class="lightbox-caption">
-                                        <!-- Lightbox image description -->
-                                        <h3>Alphaman with Staff</h3>
-                                        <p>Pigma Micron on bristol. Alphaman, one of the characters from Crow Works Comics</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- / Image 7 -->
-
-                            <!-- Image 8 -->
-                            <li class="category-1">
-                                <a href="#image-8"><img class="fade-in eight" src="../img/portfolio/comicwars/crowBackhandThumb.jpg" alt="Crow slapping villain" /></a>
-                                <div id="image-8" class="lightbox">
-                                    <!-- Lightbox image -->
-                                    <img src="../img/portfolio/comicwars/crowBackhand.jpg" alt="Crow slapping villain" />
-                                    <!-- Lightbox navigation -->
-                                    <div class="lightbox-navigation">
-                                        <a class="previous icon" href="#image-7">&#8249;</a>
-                                        <a class="next icon" href="#image-9">&#8250;</a>
-                                        <a class="close-overlay" href="#close"></a>
-                                        <a class="close icon" href="#close">&#10006;</a>
-                                    </div>
-                                    <!-- Lightbox content -->
-                                    <div class="lightbox-caption">
-                                        <!-- Lightbox image description -->
-                                        <h3>Crow slapping villain</h3>
-                                        <p>Pigma Micron on Bristol. Crow, one of the characters from Crow Works Comics.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- / Image 8 -->
-                        </ul>
-                        <!--/.gallery-items-->
-
-                        <ul class="gallery-items">
-
-                            <!-- Image 9 -->
-                            <li class="category-4">
-                                <a href="#image-9"><img class="fade-in nine" src="../img/portfolio/comicwars/crowElbowThumb.jpg" alt="Crow Elbow Hit" /></a>
-                                <div id="image-9" class="lightbox">
-                                    <!-- Lightbox image -->
-                                    <img src="../img/portfolio/comicwars/crowElbow.jpg" alt="Crow Elbow Hit" />
-                                    <!-- Lightbox navigation -->
-                                    <div class="lightbox-navigation">
-                                        <a class="previous icon" href="#image-8">&#8249;</a>
-                                        <a class="next icon" href="#image-10">&#8250;</a>
-                                        <a class="close-overlay" href="#close"></a>
-                                        <a class="close icon" href="#close">&#10006;</a>
-                                    </div>
-                                    <!-- Lightbox content -->
-                                    <div class="lightbox-caption">
-                                        <!-- Lightbox image description -->
-                                        <h3>Crow with Elbow</h3>
-                                        <p>Pigma Micron on Bristol. Crow, one of the characters from Crow Works Comics.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- / Image 9 -->
-
-                            <!-- Image 10 -->
-                            <li class="category-1">
-                                <a href="#image-10"><img class="fade-in ten" src="../img/portfolio/comicwars/freakshowColorThumb.jpg" alt="Freakshow in color" /></a>
-                                <div id="image-10" class="lightbox">
-                                    <!-- Lightbox image -->
-                                    <img src="../img/portfolio/comicwars/freakshowColor.jpg" alt="Freakshow in color" />
-                                    <!-- Lightbox navigation -->
-                                    <div class="lightbox-navigation">
-                                        <a class="previous icon" href="#image-9">&#8249;</a>
-                                        <a class="next icon" href="#image-11">&#8250;</a>
-                                        <a class="close-overlay" href="#close"></a>
-                                        <a class="close icon" href="#close">&#10006;</a>
-                                    </div>
-                                    <!-- Lightbox content -->
-                                    <div class="lightbox-caption">
-                                        <!-- Lightbox image description -->
-                                        <h3>Freakshow</h3>
-                                        <p>Pigma Micron on Bristol. Coloring with Photoshop.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- / Image 10 -->
-
-                            <!-- Image 11 -->
-                            <li class="category-2">
-                                <a href="#image-11"><img class="fade-in eleven" src="../img/portfolio/comicwars/jesterKneeCapThumb.jpg" alt="Jester shooting Crow" /></a>
-                                <div id="image-11" class="lightbox">
-                                    <!-- Lightbox image -->
-                                    <img src="../img/portfolio/comicwars/jesterKneeCap.jpg" alt="Jester shooting Crow" />
-                                    <!-- Lightbox navigation -->
-                                    <div class="lightbox-navigation">
-                                        <a class="previous icon" href="#image-10">&#8249;</a>
-                                        <a class="next icon" href="#image-12">&#8250;</a>
-                                        <a class="close-overlay" href="#close"></a>
-                                        <a class="close icon" href="#close">&#10006;</a>
-                                    </div>
-                                    <!-- Lightbox content -->
-                                    <div class="lightbox-caption">
-                                        <!-- Lightbox image description -->
-                                        <h3>Jester shooting Crow</h3>
-                                        <p>Pigma Micron on Bristol. Jester and Crow, one of the characters from Crow Works Comics.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- / Image 11 -->
-
-                            <!-- Image 12 -->
-                            <li class="category-3">
-                                <a href="#image-12"><img class="fade-in twelve" src="../img/portfolio/comicwars/machoManThumb.jpg" alt="Macho Man" /></a>
-                                <div id="image-12" class="lightbox">
-                                    <!-- Lightbox image -->
-                                    <img src="../img/portfolio/comicwars/machoMan.jpg" alt="Macho Man" />
-                                    <!-- Lightbox navigation -->
-                                    <div class="lightbox-navigation">
-                                        <a class="previous icon" href="#image-11">&#8249;</a>
-                                        <a class="next icon" href="#image-1">&#8250;</a>
-                                        <a class="close-overlay" href="#close"></a>
-                                        <a class="close icon" href="#close">&#10006;</a>
-                                    </div>
-                                    <!-- Lightbox content -->
-                                    <div class="lightbox-caption">
-                                        <!-- Lightbox image description -->
-                                        <h3>Macho Man</h3>
-                                        <p>Pigma Micron on Bristol. Illustration for action card.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- / Image 12 -->
+                            
+                        <?php
+                            $list = [
+                                ["<a href='#image-1'><img class='fade-in one' src='../img/portfolio/comicwars/cardBackThumb.jpg' alt='Comic Wars Card' /></a>", "image-1", "<img src='../img/portfolio/comicwars/cardBack.jpg' alt='Comic Wars Card'", "image-16", "image-2", "Comic Wars Card", "Photoshop. Design for Comic Wars Redesign card game." ],
+                                ["<a href='#image-2'><img class='fade-in two' src='../img/portfolio/comicwars/characterCardThumb.jpg' alt='Character Card' /></a>", "image-2", "<img src='../img/portfolio/comicwars/characterCard.jpg' alt='Character Card'", "image-1", "image-3", "Character Card", "Photoshop. Proposed design for character cards." ],
+                                ["<a href='#image-3'><img class='fade-in three' src='../img/portfolio/comicwars/actionCardRightJabThumb.jpg' alt='Right Jab Action Card' /></a>", "image-3", "<img src='../img/portfolio/comicwars/actionCardRightJab.jpg' alt='Right Jab Action Card", "image-2", "image-4", "Right Jab Action Card", "Photoshop. Proposed design for action card." ],
+                                ["<a href='#image-4'><img class='fade-in four' src='../img/portfolio/comicwars/counterCardThumb.jpg' alt='Counter Card' /></a>", "image-4", "<img src='../img/portfolio/comicwars/counterCard.jpg' alt='Counter Card'", "image-3", "image-5", "Counter Card", "Photoshop. Proposed design for counter card." ],
+                                ["<a href='#image-5'><img class='fade-in five' src='../img/portfolio/comicwars/actionCard01Thumb.jpg' alt='Action Card' /></a>", "image-5", "<img src='../img/portfolio/comicwars/actionCard01.jpg' alt='Action Card'", "image-4", "image-6", "Action Card", "Photoshop. Proposed action card design." ],
+                                ["<a href='#image-6'><img class='fade-in six' src='../img/portfolio/comicwars/actionCard9MMShotThumb.jpg' alt='9 MM Action Card' /></a>", "image-6", "<img src='../img/portfolio/comicwars/actionCard9MMShot.jpg' alt='9 MM Action Card'", "image-5", "image-7", "9 MM Action Card", "Photoshop. Proposed action card design." ],
+                                ["<a href='#image-7'><img class='fade-in seven' src='../img/portfolio/comicwars/alphamanStaffThumb.jpg' alt='Alphaman with Staff' /></a>", "image-7", "<img src='../img/portfolio/comicwars/alphamanStaff.jpg' alt='Alphaman with Staff'", "image-6", "image-8", "Alphaman with Staff", "Pigma Micron on bristol. Alphaman, one of the characters from Crow Works Comics." ],
+                                ["<a href='#image-8'><img class='fade-in eight' src='../img/portfolio/comicwars/crowBackhandThumb.jpg' alt='Crow slapping villain' /></a>", "image-8", "<img src='../img/portfolio/comicwars/crowBackhand.jpg' alt='Crow slapping villain'", "image-7", "image-9", "Crow slapping villain", "Pigma Micron on Bristol. Crow, one of the characters from Crow Works Comics." ],
+                                ["<a href='#image-9'><img class='fade-in nine' src='../img/portfolio/comicwars/crowElbowThumb.jpg' alt='Crow with Elbow' /></a>", "image-9", "<img src='../img/portfolio/comicwars/crowElbow.jpg' alt='Crow with Elbow'", "image-8", "image-10", "Crow with Elbow", "Pigma Micron on Bristol. Crow, one of the characters from Crow Works Comics." ],
+                                ["<a href='#image-10'><img class='fade-in ten' src='../img/portfolio/comicwars/freakshowColorThumb.jpg' alt='Freakshow' /></a>", "image-10", "<img src='../img/portfolio/comicwars/freakshowColor.jpg' alt='Freakshow'", "image-9", "image-11", "Freakshow", "Pigma Micron on Bristol. Coloring with Photoshop." ],
+                                ["<a href='#image-11'><img class='fade-in eleven' src='../img/portfolio/comicwars/jesterKneeCapThumb.jpg' alt='Jester shooting Crow' /></a>", "image-11", "<img src='../img/portfolio/comicwars/jesterKneeCap.jpg' alt='Jester shooting Crow'", "image-10", "image-12", "Jester shooting Crow", "Pigma Micron on Bristol. Jester and Crow, one of the characters from Crow Works Comics." ],
+                                ["<a href='#image-12'><img class='fade-in twelve' src='../img/portfolio/comicwars/machoManThumb.jpg' alt='Macho Man' /></a>", "image-12", "<img src='../img/portfolio/comicwars/machoMan.jpg' alt='Macho Man'", "image-11", "image-1", "Macho Man", "Pigma Micron on Bristol. Illustration for action card." ]                     
+                            ];
+                            foreach($list as $lists) {
+                                echo "<li>" . $lists[0] . 
+                                     "<div id='" . $lists[1] . 
+                                     "' class='lightbox'>" . $lists[2] .
+                                     " /><div class='lightbox-navigation'><a class='previous icon' href='#" . $lists[3] . 
+                                     "'>&#8249;</a><a class='next icon' href='#" . $lists[4] . 
+                                     "'>&#8250;</a><a class='close-overlay' href='#close'></a><a class='close icon' href='#close'>&#10006;</a></div><div class='lightbox-caption'><h3>" . $lists[5] . 
+                                     "</h3><p>" . $lists[6] . 
+                                     "</p></div><div></li>";
+                            }
+                        ?>
+                        
                         </ul>
                         <!--/.gallery-items-->
                     </div>

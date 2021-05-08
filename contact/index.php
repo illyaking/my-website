@@ -12,7 +12,7 @@
     <link rel="icon" href="../img/kingLogoBlack.png" type="image/png" sizes="24x24">
 
     <!--CSS -->
-    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="../fontawesome/css/fontawesome.min.css" />
     <!-- Core CSS -->

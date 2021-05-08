@@ -12,7 +12,7 @@
     <link rel="icon" href="../img/kingLogoBlack.png" type="image/png" sizes="24x24">
 
     <!--CSS -->
-    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="../fontawesome/css/fontawesome.min.css" />
     <!-- Core CSS -->
@@ -32,48 +32,20 @@
 
                 <div class="row">
 
-                    <div class="col-md-3">
-                        <div class="card mb-4 shadow-sm">
-                            <a rel="external" href="https://mythosimprint.com" target="_blank"><img src="../img/boxMythosImprint.jpg" height="300" alt="Icon for Mythos Imprint"></a>
-                            <div class="card-body">
-                                <p class="card-text">Mythos Imprint: Online E-Commerce and Multi-network WordPress install </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card mb-3 shadow-sm">
-                            <a rel="external" href="https://thecomixscene.com" target="_blank"><img src="../img/boxTheComixScene.jpg" height="300" alt="Icon for The ComiX Scene"></a>
-                            <div class="card-body">
-                                <p class="card-text">The ComiX Scene: BuddyPress Social Network and WP Multisite install</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card mb-3 shadow-sm">
-                            <a rel="external" href="https://zetaman.reallifesuperheroes.info" target="_blank"><img src="../img/boxZetamanTV.jpg" height="300" alt="Icon for ZetamanTV"></a>
-                            <div class="card-body">
-                                <p class="card-text">Zetaman.TV: Mobile Responsive HTML/CSS Website<br>&nbsp;</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="card mb-3 shadow-sm">
-                            <a rel="external" href="https://pics.illyaking.com" target="_blank"><img src="../img/boxPiwgo.jpg" height="300" alt="Icon for Image Archive"></a>
-                            <div class="card-body">
-                                <p class="card-text">Piwigo Image Archive<br>&nbsp;</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-3">
-                        <div class="card mb-3 shadow-sm">
-                            <a rel="external" href="https://king-web.net"><img src="../img/boxKingWebNet.jpg" height="300" alt="Icon for Code Archive"></a>
-                            <div class="card-body">
-                                <p class="card-text">Site map and homework archive<br>&nbsp;</p>
-                            </div>
-                        </div>
-                    </div>
+                    <?php 
+                        $list = [
+                            ["<a rel='external' href='https://mythosimprint.com' target='_blank'><img src='../img/boxMythosImprint.jpg' height='300' alt='Icon for Mythos Imprint'></a>", "Mythos Imprint: Online E-Commerce and Multi-network WordPress install"],
+                            ["<a rel='external' href='https://thecomixscene.com' target='_blank'><img src='../img/boxTheComixScene.jpg' height='300' alt='Icon for The ComiX Scene'></a>", "The ComiX Scene: BuddyPress Social Network and WP Multisite install"],
+                            ["<a rel='external' href='https://zetaman.reallifesuperheroes.info' target='_blank'><img src='../img/boxZetamanTV.jpg' height='300' alt='Icon for ZetamanTV'></a>", "Zetaman.TV: Mobile Responsive HTML/CSS Website"],
+                            ["<a rel='external' href='https://pics.illyaking.com' target='_blank'><img src='../img/boxPiwgo.jpg' height='300' alt='Icon for Image Archive'></a>", "Piwigo Image Archive<br>&nbsp;"],
+                            ["<a rel='external' href='https://king-web.net'><img src='../img/boxKingWebNet.jpg' height='300' alt='Icon for Code Archive'></a>", "Site map and homework archive<br>&nbsp;"]
+                            ];
+                        foreach($list as $lists) {
+                                echo "<div class='col-md-3'><div class='card mb-4 shadow-sm'>" . $lists[0] . 
+                                     "<div class='card-body'><p class='card-text'>" . $lists[1] .
+                                "</p></div></div></div>" ;
+                            }
+                    ?>
 
                 </div><!-- /.row -->
             </div><!-- /.container-fluid -->

@@ -12,7 +12,7 @@
     <link rel="icon" href="../img/kingLogoBlack.png" type="image/png" sizes="24x24">
 
     <!--CSS -->
-    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="../fontawesome/css/fontawesome.min.css" />
     <!-- Core CSS -->
@@ -67,202 +67,34 @@
             <div class="container-fluid">
 
                 <div class="row">
-                    <div class="col-lg-3">
-                        <div class="card mb-3 shadow-sm">
-                            <a rel="external" href="https://pcc.illyaking.com/cis133w/week9/15.html" target="_blank"><img src="../img/boxPuzzle.jpg" height="300" alt="Icon for 15 Puzzle Demo"></a>
-                            <div class="card-body">
-                                <h3>jQuery Puzzle</h3>
-                                <h4>Portland Community College Fall 2020</h4>
-                                <p class="card-text">Students needed to build a 15 number puzzle. The program must select HTML Elements, manipulate the DOM, respond to events, and alter CSS Properties. document.getElementById, ElementsByTagName, ElementsByClassName, addEventListener were not allowed.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a rel="external" class="btn btn-lg btn-outline-secondary" href="https://pcc.illyaking.com/cis133w/week9/15.html" target="_blank">View</a>&nbsp;
-                                        <a rel="external" class="btn btn-lg btn-outline-secondary" href="https://github.com/illyaking/pcc-cis133w-15-Puzzle" target="_blank">GitHub</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="card mb-4 shadow-sm">
-                            <a rel="external" href="https://pcc.illyaking.com/cas222/" target="_blank"><img src="../img/boxAITHProject.jpg" height="300" alt="Icon for Ace in the Hole Demo"></a>
-                            <div class="card-body">
-                                <h3>Ace in the Hole Multisports Event</h3>
-                                <h4>Portland Community College CAS 222 Spring 2020</h4>
-                                <p class="card-text">The project required students to build a mobile responsive website. The site needed registration and contact forms that stored data in a database. The website needed to follow CSS3 and HTML5 standards. The website must contain an image gallery, a FAQ section, and social media widgets.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a rel="external" class="btn btn-lg btn-outline-secondary" href="https://pcc.illyaking.com/cas222/template/" target="_blank">View</a>&nbsp;
-                                        <a rel="external" class="btn btn-lg btn-outline-secondary" href="https://github.com/illyaking/pcc-cas222-aceinthehole" target="_blank">GitHub</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="card mb-3 shadow-sm">
-                            <a rel="external" href="https://pcc.illyaking.com/cas242/project/" target="_blank"><img src="../img/boxBurritoMasala.jpg" height="300" alt="Icon for Burrito Masala Demo"></a>
-                            <div class="card-body">
-                                <h3>Burrito Masala</h3>
-                                <h4>Portland Community College CAS 242 Spring 2020</h4>
-                                <p class="card-text">Project required students to build a one-page mobile responsive website. The client was a local food cart in Portland, Oregon. Students needed to create a SWAT analysis, a brand book, a user journey, and persona templates.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a rel="external" class="btn btn-lg btn-outline-secondary" href="https://pcc.illyaking.com/cas242/project/" target="_blank">View</a>&nbsp;
-                                        <a rel="external" class="btn btn-lg btn-outline-secondary" href="https://github.com/illyaking/pcc-cas242-burritomasala" target="_blank">GitHub</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="card mb-3 shadow-sm">
-                            <a rel="external" href="https://pcc.illyaking.com/cas225/pht/" target="_blank"><img src="../img/boxPortlandHistoricalTours.jpg" height="300" alt="Icon for Portland Historical Tours Demo"></a>
-                            <div class="card-body">
-                                <h3>Portland Historical Tours</h3>
-                                <h4>Portland Community College CAS 225 Winter 2020</h4>
-                                <p class="card-text">Students needed to build a website that generated pages using SQL. The project needed a database that contained reservation and contact information. The contact form also generated an email to the user.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a rel="external" class="btn btn-lg btn-outline-secondary" href="https://pcc.illyaking.com/cas225/pht/" target="_blank">View</a>&nbsp;
-                                        <a rel="external" class="btn btn-lg btn-outline-secondary" href="https://github.com/illyaking/pcc-cas225-finalPortlandHistoricalTours" target="_blank">GitHub</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="card mb-3 shadow-sm">
-                            <a rel="external" href="https://projects.illyaking.com/mobileComments/" target="_blank"><img src="../img/boxMobileCommenter.jpg" height="300" alt="Icon for Mobile Commenter"></a>
-                            <div class="card-body">
-                                <h3>Mobile Commenter Program</h3>
-                                <h4>FedEx Freight December 2018</h4>
-                                <p class="card-text">A jQuery comment generator for Freight Analysis. The generator assisted in building reports for FedEx Freight.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a rel="external" class="btn btn-lg btn-outline-secondary" href="https://projects.illyaking.com/mobileComments/" target="_blank">View</a>&nbsp;
-                                        <a rel="external" class="btn btn-lg btn-outline-secondary" href="https://github.com/illyaking/mobileCommenter" target="_blank">GitHub</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-3">
-                        <div class="card mb-3 shadow-sm">
-                            <a rel="external" href="https://projects.illyaking.com/ITEM680calculator/item680.html" target="_blank"><img src="../img/boxItem680.jpg" height="300" alt="Icon for Item 680 Calculator"></a>
-                            <div class="card-body">
-                                <h3>Item 680 Calculator</h3>
-                                <h4>FedEx Freight December 2018</h4>
-                                <p class="card-text">jQuery calculator for NMFTA item rule 680. The calculator determined if a commodity was less than 65% of it’s container. It also calculated the stability of the commodity per ITEM 680 Note 2 section C.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a rel="external" class="btn btn-lg btn-outline-secondary" href="https://projects.illyaking.com/ITEM680calculator/item680.html" target="_blank">View</a>&nbsp;
-                                        <a rel="external" class="btn btn-lg btn-outline-secondary" href="https://github.com/illyaking/item680calculator" target="_blank">GitHub</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="card mb-3 shadow-sm">
-                            <a rel="external" href="https://mytheme.illyaking.com/" target="_blank"><img src="../img/boxWPTheme.jpg" height="300" alt="Icon for WordPress Theme Demo"></a>
-                            <div class="card-body">
-                                <h3>Theme for WordPress</h3>
-                                <h4>Portland Community College CAS 111w Spring 2018</h4>
-                                <p class="card-text">Students needed to build a WordPress theme that is mobile responsive. The site modifies the standard customization menu through functions.php file. The project required coders to create custom pages for Woocommerce. Students also built a simple address plugin.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a rel="external" class="btn btn-lg btn-outline-secondary" href="https://mytheme.illyaking.com/" target="_blank">View</a>&nbsp;
-                                        <a rel="external" class="btn btn-lg btn-outline-secondary" href="https://github.com/illyaking/pcc-cas211w-mytheme" target="_blank">GitHub</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="card mb-3 shadow-sm">
-                            <a rel="external" href="https://pcc.illyaking.com/cas215/assignment10/final/" target="_blank"><img src="../img/boxLionsKingJungle.jpg" height="300" alt="Icon for Responsive First Demo"></a>
-                            <div class="card-body">
-                                <h3>Lions- King of the Jungle</h3>
-                                <h4>Portland Community College CAS 215 Fall 2018</h4>
-                                <p class="card-text">The project required students to build a website using LESS/Mixins. The website must be responsive first. The menu uses the jQuery Hamburger script. The header and the background changed when the display size changed.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a rel="external" class="btn btn-lg btn-outline-secondary" href="https://pcc.illyaking.com/cas215/assignment10/final/" target="_blank">View</a>&nbsp;
-                                        <a rel="external" class="btn btn-lg btn-outline-secondary" href="https://github.com/illyaking/pcc-cas215-finalWebsite" target="_blank">GitHub</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="card mb-3 shadow-sm">
-                            <a rel="external" href="https://pcc.illyaking.com/cas215/assignment08/project/project.html" target="_blank"><img src="../img/boxMobileFirst.jpg" height="300" alt="Icon for Responsive First Demo"></a>
-                            <div class="card-body">
-                                <h3>Mobile First Website</h3>
-                                <h4>Portland Community College CAS 215 Fall 2018</h4>
-                                <p class="card-text">Students needed to build a mobile first wire frame website. The site required LESS and Mixins. All elements are set in widths and percentages. Media queries are for displays greater than 481px.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a rel="external" class="btn btn-lg btn-outline-secondary" href="https://pcc.illyaking.com/cas215/assignment08/project/project.html" target="_blank">View</a>&nbsp;
-                                        <a rel="external" class="btn btn-lg btn-outline-secondary" href="https://github.com/illyaking/pcc-cas215-responsiveLESSAndMixinsWebsite" target="_blank">GitHub</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="col-lg-3">
-                        <div class="card mb-3 shadow-sm">
-                            <a rel="external" href="https://pcc.illyaking.com/cas213/week8/week8.html" target="_blank"><img src="../img/boxJQueryGallery.jpg" height="300" alt="Icon for jQuery Gallery Demo"></a>
-                            <div class="card-body">
-                                <h3>jQuery Photo Gallery and Menu</h3>
-                                <h4>Portland Community College CAS 213 Fall 2018</h4>
-                                <p class="card-text">Using jQuery, students needed to build a gallery with a responsive menu.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a rel="external" class="btn btn-lg btn-outline-secondary" href="https://pcc.illyaking.com/cas213/week8/week8.html" target="_blank">View</a>&nbsp;
-                                        <a rel="external" class="btn btn-lg btn-outline-secondary" href="https://github.com/illyaking/pcc-cas213-jQueryGallery" target="_blank">GitHub</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card mb-3 shadow-sm">
-                            <a rel="external" href="https://pcc.illyaking.com/cas213/week6/week6.html" target="_blank"><img src="../img/boxJavaCalculator.jpg" height="300" alt="Icon for jQuery Calculator Demo"></a>
-                            <div class="card-body">
-                                <h3>jQuery Calculator</h3>
-                                <h4>Portland Community College CAS 213 Fall 2018</h4>
-                                <p class="card-text">The project needed students to code a calculator using jQuery.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a rel="external" class="btn btn-lg btn-outline-secondary" href="https://pcc.illyaking.com/cas213/week6/week6.html" target="_blank">View</a><br>&nbsp;
-                                        <a rel="external" class="btn btn-lg btn-outline-secondary" href="https://github.com/illyaking/pcc-cas213-simpleJQueryCalculator" target="_blank">GitHub</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card mb-3 shadow-sm">
-                            <a rel="external" href="https://pcc.illyaking.com/cas206/project/index.html" target="_blank"><img src="../img/boxPortlandHistoricalTours206.jpg" height="300" alt="Icon for CSS Webpage Demo"></a>
-                            <div class="card-body">
-                                <h3>Portland Historical Tours</h3>
-                                <h4>Portland Community College CAS 206 Summer 2018</h4>
-                                <p class="card-text">Final for Principles of HTML and CSS. Students needed to build a responsive website. Portland Historical Tours content provided by class. </p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a rel="external" class="btn btn-lg btn-outline-secondary" href="https://pcc.illyaking.com/cas206/project/index.html" target="_blank">View</a>&nbsp;
-                                        <a rel="external" class="btn btn-lg btn-outline-secondary" href="https://github.com/illyaking/pcc-cas206-finalPortlandHistoricalToursSite" target="_blank">GitHub</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <?php 
+                        $list = [
+                            ["https://pcc.illyaking.com/cis133w/week9/15.html' target='_blank'><img src='../img/boxPuzzle.jpg' height='300' alt='Icon for 15 Puzzle Demo", "jQuery Puzzle", "Portland Community College Fall 2020", "Students needed to build a 15 number puzzle. The program must select HTML Elements, manipulate the DOM, respond to events, and alter CSS Properties. document.getElementById, ElementsByTagName, ElementsByClassName, addEventListener were not allowed.", "https://pcc.illyaking.com/cis133w/week9/15.html", "https://github.com/illyaking/pcc-cis133w-15-Puzzle"],
+                            ["https://pcc.illyaking.com/cas222/' target='_blank'><img src='../img/boxAITHProject.jpg' height='300' alt='Icon for Ace in the Hole Demo", "Ace in the Hole Multisports Event", "Portland Community College CAS 222 Spring 2020", "The project required students to build a mobile responsive website. The site needed registration and contact forms that stored data in a database. The website needed to follow CSS3 and HTML5 standards. The website must contain an image gallery, a FAQ section, and social media widgets.", "https://pcc.illyaking.com/cas222/template/", "https://github.com/illyaking/pcc-cas222-aceinthehole"],
+                            ["https://pcc.illyaking.com/cas242/project/' target='_blank'><img src='../img/boxBurritoMasala.jpg' height='300' alt='Icon for Burrito Masala Demo", "Burrito Masala", "Portland Community College CAS 242 Spring 2020", "Project required students to build a one-page mobile responsive website. The client was a local food cart in Portland, Oregon. Students needed to create a SWAT analysis, a brand book, a user journey, and persona templates.", "https://pcc.illyaking.com/cas242/project/", "https://github.com/illyaking/pcc-cas242-burritomasala"],
+                            ["https://pcc.illyaking.com/cas225/pht/' target='_blank'><img src='../img/boxPortlandHistoricalTours.jpg' height='300' alt='Icon for Portland Historical Tours Demo", "Portland Historical Tours", "Portland Community College CAS 225 Winter 2020", "Students needed to build a website that generated pages using SQL. The project needed a database that contained reservation and contact information. The contact form also generated an email to the user.", "https://pcc.illyaking.com/cas225/pht/", "https://github.com/illyaking/pcc-cas225-finalPortlandHistoricalTours"],
+                            ["https://projects.illyaking.com/mobileComments/' target='_blank'><img src='../img/boxMobileCommenter.jpg' height='300' alt='Icon for Mobile Commenter", "Mobile Commenter Program", "FedEx Freight December 2018", "A jQuery comment generator for Freight Analysis. The generator assisted in building reports for FedEx Freight.", "https://projects.illyaking.com/mobileComments/", "https://github.com/illyaking/mobileCommenter"],
+                            ["https://projects.illyaking.com/ITEM680calculator/item680.html' target='_blank'><img src='../img/boxItem680.jpg' height='300' alt='Icon for Item 680 Calculator", "Item 680 Calculator", "FedEx Freight December 2018", "jQuery calculator for NMFTA item rule 680. The calculator determined if a commodity was less than 65% of it’s container. It also calculated the stability of the commodity per ITEM 680 Note 2 section C.", "https://projects.illyaking.com/ITEM680calculator/item680.html", "https://github.com/illyaking/item680calculator"],
+                            ["https://mytheme.illyaking.com/' target='_blank'><img src='../img/boxWPTheme.jpg' height='300' alt='Icon for WordPress Theme Demo", "Theme for WordPress", "Portland Community College CAS 111w Spring 2018", "Students needed to build a WordPress theme that is mobile responsive. The site modifies the standard customization menu through functions.php file. The project required coders to create custom pages for Woocommerce. Students also built a simple address plugin.", "https://mytheme.illyaking.com/", "https://github.com/illyaking/pcc-cas211w-mytheme"],
+                            ["https://pcc.illyaking.com/cas215/assignment10/final/' target='_blank'><img src='../img/boxLionsKingJungle.jpg' height='300' alt='Icon for Lion Website", "Lions- King of the Jungle", "Portland Community College CAS 215 Fall 2018", "The project required students to build a website using LESS/Mixins. The website must be responsive first. The menu uses the jQuery Hamburger script. The header and the background changed when the display size changed.", "https://pcc.illyaking.com/cas215/assignment10/final/", "https://github.com/illyaking/pcc-cas215-finalWebsite"],
+                            ["https://pcc.illyaking.com/cas215/assignment08/project/project.html' target='_blank'><img src='../img/boxMobileFirst.jpg' height='300' alt='Icon for Responsive First Demo", "Mobile First Website", "Portland Community College CAS 215 Fall 2018", "Students needed to build a mobile first wire frame website. The site required LESS and Mixins. All elements are set in widths and percentages. Media queries are for displays greater than 481px.", "https://pcc.illyaking.com/cas215/assignment08/project/project.html", "https://github.com/illyaking/pcc-cas215-responsiveLESSAndMixinsWebsite"],
+                            ["https://pcc.illyaking.com/cas213/week8/week8.html' target='_blank'><img src='../img/boxJQueryGallery.jpg' height='300' alt='Icon for jQuery Gallery Demo", "jQuery Photo Gallery and Menu", "Portland Community College CAS 213 Fall 2018", "Using jQuery, students needed to build a gallery with a responsive menu.", "https://pcc.illyaking.com/cas213/week8/week8.html", "https://github.com/illyaking/pcc-cas213-jQueryGallery"],
+                            ["https://pcc.illyaking.com/cas213/week6/week6.html' target='_blank'><img src='../img/boxJavaCalculator.jpg' height='300' alt='Icon for jQuery Calculator Demo", "jQuery Calculator", "Portland Community College CAS 213 Fall 2018", "The project needed students to code a calculator using jQuery.", "https://pcc.illyaking.com/cas213/week6/week6.html", "https://github.com/illyaking/pcc-cas213-simpleJQueryCalculator"],
+                            
+                            ["https://pcc.illyaking.com/cas206/project/index.html' target='_blank'><img src='../img/boxPortlandHistoricalTours206.jpg' height='300' alt='Icon for CSS Webpage Demo", "Portland Historical Tours", "Portland Community College CAS 206 Summer 2018", "Final for Principles of HTML and CSS. Students needed to build a responsive website. Portland Historical Tours content provided by class.", "https://pcc.illyaking.com/cas206/project/index.html", "https://github.com/illyaking/pcc-cas206-finalPortlandHistoricalToursSite"]
+                            ];
+                        foreach($list as $lists) {
+                                echo "<div class='col-md-3'><div class='card mb-4 shadow-sm'><a rel='external' href='" . $lists[0] . 
+                                    "'></a><div class='card-body'><h3>" . $lists[1] .
+                                    "</h3><h4>" . $lists[2] . 
+                                    "</h4><p class='card-text'>" . $lists[3] .
+                                "</p><div class='d-flex justify-content-between align-items-center'><div class='btn-group'>
+                                <a rel='external' class='btn btn-lg btn-outline-secondary' href='" . $lists[4] .
+                                "' target='_blank'>View</a>&nbsp;<a rel='external' class='btn btn-lg btn-outline-secondary' href='" . $lists[5] .
+                                "' target='_blank'>GitHub</a></div></div></div></div></div>" ;
+                            }
+                    ?>
 
                 </div><!-- /.row -->
             </div><!-- /.container-fluid -->

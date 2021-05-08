@@ -12,7 +12,7 @@
     <link rel="icon" href="../img/kingLogoBlack.png" type="image/png" sizes="24x24">
 
     <!--CSS -->
-    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="../fontawesome/css/fontawesome.min.css" />
     <!-- Core CSS -->
@@ -31,85 +31,28 @@
             <div class="container-fluid">
 
                 <div class="row">
-                    <div class="col-md-3">
-                        <div class="card mb-4 shadow-sm">
-                            <a href="illustrations.php"><img src="../img/boxIllustrations.jpg" height="300" alt="Illustration Icon"></a>
-                            <div class="card-body">
-                                <p class="card-text">Illustrations</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card mb-4 shadow-sm">
-                            <a href="commissons.php"><img src="../img/boxCommissions.jpg" height="300" alt="Commissions Icon"></a>
-                            <div class="card-body">
-                                <p class="card-text">Commissions</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card mb-4 shadow-sm">
-                            <a href="photography.php"><img src="../img/boxPhotography.jpg" height="300" alt="Photography Icon"></a>
-                            <div class="card-body">
-                                <p class="card-text">Photography</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card mb-4 shadow-sm">
-                            <a href="comicwars.php"><img src="../img/boxComicWars.jpg" height="300" alt="Comic Wars Icon"></a>
-                            <div class="card-body">
-                                <p class="card-text">Comic Wars Card Game</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="card mb-4 shadow-sm">
-                            <a href="comiccovers.php"><img src="../img/boxComicCovers.jpg" height="300" alt="Comic Covers Icon"></a>
-                            <div class="card-body">
-                                <p class="card-text">Comic Book Covers</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="card mb-4 shadow-sm">
-                            <a href="interstellaria.php"><img src="../img/boxInterstellaria.jpg" height="300" alt="Interstellaria Icon"></a>
-                            <div class="card-body">
-                                <p class="card-text">Interstellaria Concept Art</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="card mb-4 shadow-sm">
-                            <a href="pccDesign.php"><img src="../img/boxPCCDesign.jpg" height="300" alt="PCC Design Icon"></a>
-                            <div class="card-body">
-                                <p class="card-text">PCC Graphic Design Projects</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="card mb-4 shadow-sm">
-                            <a href="sketchbook.php"><img src="../img/boxRoses.jpg" height="300" alt="Sketchbook Icon"></a>
-                            <div class="card-body">
-                                <p class="card-text">Sketchbook</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="card mb-4 shadow-sm">
-                            <a href="ais.php"><img src="../img/boxAIS.jpg" height="300" alt="Art Instruction Schools Icon"></a>
-                            <div class="card-body">
-                                <p class="card-text">Art Instruction Schools</p>
-                            </div>
-                        </div>
-                    </div>
-
+                    
+                    <?php 
+                        $list = [
+                            ["<a href='illustrations.php'><img src='../img/boxIllustrations.jpg' height='300' alt='Illustration Icon'></a>", "Illustrations"],
+                            ["<a href='commissions.php'><img src='../img/boxCommissions.jpg' height='300' alt='Commissions Icon'></a>", "Commissions"],
+                            ["<a href='photography.php'><img src='../img/boxPhotography.jpg' height='300' alt='Photography Icon'></a>", "Photography"],
+                            ["<a href='comicwars.php'><img src='../img/boxComicWars.jpg' height='300' alt='Comic Wars Icon'></a>", "Comic Wars Card Game"],
+                            ["<a href='comiccovers.php'><img src='../img/boxComicCovers.jpg' height='300' alt='Comic Covers Icon'></a>", "Comic Book Covers"],
+                            ["<a href='intersellaria.php'><img src='../img/boxInterstellaria.jpg' height='300' alt='Interstellaria Icon'></a>", "Interstellaria Concept Art"],
+                            ["<a href='pccDesign.php'><img src='../img/boxPCCDesign.jpg' height='300' alt='PCC Design Icon'></a>", "PCC Graphic Design Projects"],
+                            ["<a href='sketchbook.php'><img src='../img/boxRoses.jpg' height='300' alt='Sketchbook Icon'></a>", "Sketchbook"],
+                            ["<a href='ais.php'><img src='../img/boxAIS.jpg' height='300' alt='Art Instruction Schools Icon'></a>", "Art Instruction Schools"]
+                            ];
+                        foreach($list as $lists) {
+                                echo "<div class='col-md-3'><div class='card mb-4 shadow-sm'>" . $lists[0] . 
+                                     "<div class='card-body'><p class='card-text'>" . $lists[1] .
+                                "</p></div></div></div>" ;
+                            }
+                    ?>
+                    
                 </div>
+
             </div>
         </div>
 
