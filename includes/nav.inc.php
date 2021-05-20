@@ -25,12 +25,5 @@
                 <a class="nav-link" href="<?php echo BASE_URL; ?>contact/">Contact</a>
             </li>
         </ul>
-        <script async src="https://cse.google.com/cse.js?cx=007163124570962461897:blt_ocdrcie"></script>
-        <div class="gcse-search">
-            <form class="form-inline my-2 my-lg-0 gcse-search">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search" style="width: 400px" aria-label="Search">
-                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
     </div>
 </nav>
