@@ -39,7 +39,7 @@
                             ["<a href='photography.php'><img src='../img/boxPhotography.jpg' height='300' alt='Photography Icon'></a>", "Photography"],
                             ["<a href='comicwars.php'><img src='../img/boxComicWars.jpg' height='300' alt='Comic Wars Icon'></a>", "Comic Wars Card Game"],
                             ["<a href='comiccovers.php'><img src='../img/boxComicCovers.jpg' height='300' alt='Comic Covers Icon'></a>", "Comic Book Covers"],
-                            ["<a href='intersellaria.php'><img src='../img/boxInterstellaria.jpg' height='300' alt='Interstellaria Icon'></a>", "Interstellaria Concept Art"],
+                            ["<a href='interstellaria.php'><img src='../img/boxInterstellaria.jpg' height='300' alt='Interstellaria Icon'></a>", "Interstellaria Concept Art"],
                             ["<a href='pccDesign.php'><img src='../img/boxPCCDesign.jpg' height='300' alt='PCC Design Icon'></a>", "PCC Graphic Design Projects"],
                             ["<a href='sketchbook.php'><img src='../img/boxRoses.jpg' height='300' alt='Sketchbook Icon'></a>", "Sketchbook"],
                             ["<a href='ais.php'><img src='../img/boxAIS.jpg' height='300' alt='Art Instruction Schools Icon'></a>", "Art Instruction Schools"]
