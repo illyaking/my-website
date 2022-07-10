@@ -246,9 +246,6 @@ input[type=submit].btn-block {
 .py-5 {
   margin-top: 2rem;
 }
-.contactInfo {
-  background-color: #000000;
-}
 /* Pagination */
 .blog-pagination {
   margin-bottom: 4rem;

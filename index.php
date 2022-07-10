@@ -103,8 +103,6 @@
                 </div><!-- /.col-lg-6 -->
                 <div class="col-lg-4 contact">
                     <h2>Contact Information</h2>
-                    <h3><i class="fas fa-address-card"></i> P.O. Box 6302<br>
-                        Vancouver, WA 98668</h3>
                     <h3><i class="fas fa-envelope"></i> illyaking@illyaking.com</h3>
                     <h3><i class="fas fa-tablet-alt"></i> <a class="telephone" href="tel:1-360-443-9347">+360-443-9347</a></h3>
                 </div><!-- /.col-md-6 -->
